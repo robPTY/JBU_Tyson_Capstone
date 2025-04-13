@@ -31,6 +31,22 @@
    pip install -r requirements.txt
    ```
 
+4. Set up the MariaDB database
+   - **On macOS/Linux/WSL:**
+     ```bash
+     ./setup_db.sh
+     ```
+   - **On Windows:**
+
+     ```bash
+     setup_db.bat
+     ```
+
+     🛑 Make sure you have MariaDB installed and that the mysql command is available in your terminal. This will create the robertodb database and load the schema and sample data from db/robertodb.sql.
+
+     💡 Need MariaDB?
+     Install from: https://mariadb.org/download
+
 ## Running the Program
 
 4. Run the script:
